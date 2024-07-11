@@ -5,6 +5,7 @@ import json
 import pandas as pd
 
 
+
 # Generate data for 50 characters
 NUM_ROWS = 1000
 
