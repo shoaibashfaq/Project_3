@@ -2,6 +2,8 @@ import csv
 import random
 from datetime import datetime, timedelta
 import json
+import pandas as pd
+
 
 # Generate data for 50 characters
 NUM_ROWS = 1000
@@ -58,3 +60,4 @@ with open(OUTPUT_FILE, "w", newline="") as file:
     writer.writerows(data_rows)
 
 print("Data generation complete.")
+
